@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+#All{
+    width: 100%;
+    height: 10000px;
+    background-color: rgb(172, 19, 44);
+    border: 1px solid black;
+}
+#bg{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+#mobail{
+    width: 20%;
+    height:500px;
+    background-image: url(img/b73e62da299075cc73f9c02dc081804a.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position:relative;
+    overflow:hidden;
+    z-index:20;
+    
+
+}
+#con{
+    width:82%;
+    height:95%;
+    position:absolute;
+    border-radius: 21px 21px 21px 21px;
+    top: 2%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    overflow: hidden;
+    transition: 1s;
+
+}
+#content{
+    width: 100%;
+    height:auto;
+    /* border: 10px solid green; */
+    position: absolute;
+    top:0;
+    transition: 1s;
+}
+
+#con article{
+    width: 100%;
+    height:800px;
+    background-image: url(img/verti.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 10px;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#con>article>p{
+    margin-top: 50px;
+    padding: 10px;
+}
